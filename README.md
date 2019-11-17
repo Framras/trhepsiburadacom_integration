@@ -1,1 +1,7 @@
-# trhepsiburadacom_integration
+## Trhepsiburadacom Integration
+
+TR hepsiburada.com integration for ErpNext
+
+#### License
+
+MIT

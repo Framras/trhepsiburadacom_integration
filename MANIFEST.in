@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include trhepsiburadacom_integration *.css
+recursive-include trhepsiburadacom_integration *.csv
+recursive-include trhepsiburadacom_integration *.html
+recursive-include trhepsiburadacom_integration *.ico
+recursive-include trhepsiburadacom_integration *.js
+recursive-include trhepsiburadacom_integration *.json
+recursive-include trhepsiburadacom_integration *.md
+recursive-include trhepsiburadacom_integration *.png
+recursive-include trhepsiburadacom_integration *.py
+recursive-include trhepsiburadacom_integration *.svg
+recursive-include trhepsiburadacom_integration *.txt
+recursive-exclude trhepsiburadacom_integration *.pyc

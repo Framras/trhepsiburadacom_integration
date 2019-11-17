@@ -1,0 +1,138 @@
+{
+  "autoname": "field:company_name",
+  "creation": "2019-11-17 10:52:16.642379",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "company_name",
+    "enable",
+    "hepsiburada_settings_section",
+    "username",
+    "password",
+    "merchantid",
+    "column_break_7",
+    "test_integration",
+    "test_result",
+    "developer_settings_section",
+    "use_developer",
+    "developer_username",
+    "developer_password",
+    "developer_merchantid",
+    "column_break_15",
+    "test_developer_integration",
+    "developer_test_result"
+  ],
+  "fields": [
+    {
+      "fieldname": "company_name",
+      "fieldtype": "Link",
+      "label": "Company",
+      "options": "Company",
+      "unique": 1
+    },
+    {
+      "default": "0",
+      "fieldname": "enable",
+      "fieldtype": "Check",
+      "label": "Enable"
+    },
+    {
+      "fieldname": "hepsiburada_settings_section",
+      "fieldtype": "Section Break",
+      "label": "hepsiburada Settings"
+    },
+    {
+      "fieldname": "username",
+      "fieldtype": "Data",
+      "label": "User Name"
+    },
+    {
+      "fieldname": "password",
+      "fieldtype": "Data",
+      "label": "Password"
+    },
+    {
+      "fieldname": "merchantid",
+      "fieldtype": "Data",
+      "label": "Merchant ID"
+    },
+    {
+      "fieldname": "column_break_7",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "test_integration",
+      "fieldtype": "Button",
+      "label": "Test Integration"
+    },
+    {
+      "fieldname": "test_result",
+      "fieldtype": "Small Text",
+      "label": "Test Result"
+    },
+    {
+      "fieldname": "developer_settings_section",
+      "fieldtype": "Section Break",
+      "label": "Developer Settings"
+    },
+    {
+      "default": "0",
+      "fieldname": "use_developer",
+      "fieldtype": "Check",
+      "label": "Use Developer"
+    },
+    {
+      "fieldname": "developer_username",
+      "fieldtype": "Data",
+      "label": "Developer User Name"
+    },
+    {
+      "fieldname": "developer_password",
+      "fieldtype": "Data",
+      "label": "Developer Password"
+    },
+    {
+      "fieldname": "developer_merchantid",
+      "fieldtype": "Data",
+      "label": "Developer Merchant ID"
+    },
+    {
+      "fieldname": "column_break_15",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "test_developer_integration",
+      "fieldtype": "Button",
+      "label": "Test Developer Integration"
+    },
+    {
+      "fieldname": "developer_test_result",
+      "fieldtype": "Small Text",
+      "label": "Developer Test Result"
+    }
+  ],
+  "modified": "2019-11-17 11:01:19.052792",
+  "modified_by": "Administrator",
+  "module": "Trhbcom Integration",
+  "name": "TR hepsiburadacom Company Settings",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "quick_entry": 1,
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}
